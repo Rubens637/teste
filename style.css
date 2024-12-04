@@ -1,0 +1,22 @@
+body {
+    background-color: #2f4f4f;
+    color: white;
+}
+
+a {
+    background-color: yellow;
+    color: black;
+}
+
+header {
+    color: rgb(250, 234, 7);
+    
+}
+
+h1 {
+    color: rgb(235, 235, 38);
+}
+
+p {
+    color: yellowgreen;
+}
