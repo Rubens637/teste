@@ -20,7 +20,7 @@ body{
     margin: 10% 8%;
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;      
 }
 
 .apresentacao__conteudo{
@@ -28,6 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
 
 .apresentacao__conteudo__titulo {
@@ -42,19 +43,35 @@ body{
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;    
     justify-content: space-between;
-    
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links_subtitulos {
+    font-family: "Krona one", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__link {
-    background-color: #22d4fe;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22d4fd;
+    width: 378px;
     text-align: center;
     font-weight: 600;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 20px;
     padding: 10px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    font-size: 18px;
 }
