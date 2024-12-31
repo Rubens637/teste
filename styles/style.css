@@ -16,8 +16,10 @@
 
 body{
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-image: url("/assets/ondas.png");    
+    background-size: cover;        
     color: var(--cor-secundaria);
+    
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -32,19 +34,30 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    border: 2px solid var(--cor-terciaria);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
 }
+
+.cabecalho__menu__link:hover{
+    background-color: var(--cor-hover);
+}
+
 .apresentacao{
     padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
+    
 }
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 40px;  
 }
 
 .apresentacao__conteudo__titulo{
@@ -80,8 +93,8 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 1rem;
-    font-weight: 600;
-    padding: 5px;
+    font-weight: 300px;
+    padding: 10px;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -117,5 +130,6 @@ body{
 
     .apresentacao__conteudo {
         width: auto;
+
     }
 }
